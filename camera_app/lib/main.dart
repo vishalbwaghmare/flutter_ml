@@ -158,7 +158,6 @@ class _MyHomePageState extends State<MyHomePage> {
                                   //this implementaion is for web
                               itemBuilder: (context, index) {
                                 final image = pictures[index];
-
                                 return FutureBuilder<Uint8List>(
                                   future: image.readAsBytes(),
                                   builder: (context, snapshot) {
