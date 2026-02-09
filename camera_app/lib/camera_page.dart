@@ -24,7 +24,7 @@ class _CameraPageState extends State<CameraPage> {
       }
       setState(() {});
     }).catchError((Object e) {
-      print("INFO: ERROR: Camera error = $e");
+      // print("INFO: ERROR: Camera error = $e");
       if (e is CameraException) {
         switch (e.code) {
           case 'CameraAccessDenied':
