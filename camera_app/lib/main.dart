@@ -155,7 +155,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                     crossAxisSpacing: 8,
                                     mainAxisSpacing: 8,
                                   ),
-                                  //this implementaion is for web
+                                  //this implementaion is for web app
                               itemBuilder: (context, index) {
                                 final image = pictures[index];
                                 return FutureBuilder<Uint8List>(
