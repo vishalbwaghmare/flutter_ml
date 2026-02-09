@@ -69,7 +69,7 @@ class _CameraPageState extends State<CameraPage> {
                         color: Colors.grey,
                         borderRadius: BorderRadius.circular(100)
                       ),
-                      child: Icon(Icons.camera_alt_outlined,color: Colors.white,),
+                      child: Icon(Icons.camera_alt_outlined,color: Colors.white, size: 30,),
                     ),
                   ),
                 )
